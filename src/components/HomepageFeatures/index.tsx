@@ -39,12 +39,12 @@ function Feature({title, Svg, description}: FeatureItem) {
 export default function HomepageFeatures(): ReactNode {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+      <div className={clsx('container', styles.imageContainer)}>
+        <img
+          src="/img/배경배포.png"
+          alt="임시 메인 이미지"
+          className={styles.mainImage}
+        />
       </div>
     </section>
   );

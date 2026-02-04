@@ -17,11 +17,14 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className={styles.subText}>
+          '카구라바치' 장르, '로쿠히라 치히로' 드림 정리 문서
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/main/intro">
-            시작하기
+            보러가기
           </Link>
         </div>
       </div>
