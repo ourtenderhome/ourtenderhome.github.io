@@ -31,9 +31,24 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko',
+    locales: ['ko'],
   },
+
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        docsRouteBasePath: '/', 
+        indexPages: true, 
+        indexDocs: true,
+        hashed: true,
+        
+        language: ["en", "ko"], 
+      },
+    ],
+  ],
+
 
   presets: [
     [
@@ -109,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/main/intro',
             },
           ],
         },
