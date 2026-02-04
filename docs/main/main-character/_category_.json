@@ -1,0 +1,8 @@
+{
+  "label": "캐릭터",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "작품의 등장 인물"
+  }
+}
