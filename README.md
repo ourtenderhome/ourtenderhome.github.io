@@ -26,16 +26,13 @@ This command generates static content into the `build` directory and can be serv
 
 ## Deployment
 
-Using SSH:
-
 ```bash
-USE_SSH=true yarn deploy
+$env:GIT_AUTHOR_NAME="mth3860"
+$env:GIT_AUTHOR_EMAIL="otkbreak@gmail.com"
+$env:GIT_COMMITTER_NAME="mth3860"
+$env:GIT_COMMITTER_EMAIL="otkbreak@gmail.com"
+
+yarn deploy
 ```
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+https://mth3860.github.io/ 
