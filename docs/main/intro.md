@@ -10,7 +10,7 @@ sidebar_label: 소개
 
 자료용으로 본 문서를 전달받으신 경우, [세계관 및 설정](/docs/category/세계관-및-설정), [로쿠히라 치히로](./main-character/chihiro.md), [로쿠히라 치사토](./main-character/chisato.md) 문서 위주로 참고바랍니다.
 
-:::info
+:::info[드림에 대해]
 #### 드림
 
 원작이 되는 한 작품과 자작 캐릭터를 크로스오버한 IF 서사를 창작하는 행위
