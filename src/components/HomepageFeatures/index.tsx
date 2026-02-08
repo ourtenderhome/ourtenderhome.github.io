@@ -31,7 +31,7 @@ export default function HomepageFeatures(): ReactNode {
     <section className={styles.features}>
       <div className={clsx('container', styles.imageContainer)}>
         <img
-          src="/img/배경배포.png"
+          src="/img/배경배포2.png"
           alt="임시 메인 이미지"
           className={styles.mainImage}
         />

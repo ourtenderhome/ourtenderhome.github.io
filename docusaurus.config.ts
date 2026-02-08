@@ -67,7 +67,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/배경배포.png',
+    image: 'img/배경배포2.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
