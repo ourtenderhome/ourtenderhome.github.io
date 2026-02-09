@@ -95,6 +95,20 @@ Markdown 문법을 사용하여 문서를 작성합니다:
 [링크 텍스트](URL)
 ```
 
+준수 사항
+:::note[제목변경가능]
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+1. note (흰색)
+2. tip (녹색)
+3. info (파랑)
+4. warning (경고)
+5. danger (빨강)
+
+
 ### 이미지 추가하기
 
 #### 1. 이미지 파일 저장
