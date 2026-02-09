@@ -97,9 +97,7 @@ Markdown 문법을 사용하여 문서를 작성합니다:
 
 준수 사항
 :::note[제목변경가능]
-
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
-
 :::
 
 1. note (흰색)
