@@ -27,16 +27,16 @@ This command generates static content into the `build` directory and can be serv
 ## Deployment
 
 ```bash
-$env:GIT_AUTHOR_NAME="mth3860"
-$env:GIT_AUTHOR_EMAIL="otkbreak@gmail.com"
-$env:GIT_COMMITTER_NAME="mth3860"
-$env:GIT_COMMITTER_EMAIL="otkbreak@gmail.com"
+$env:GIT_AUTHOR_NAME="ourtenderhome"
+$env:GIT_AUTHOR_EMAIL="rokuhirachihirosato@gmail.com"
+$env:GIT_COMMITTER_NAME="ourtenderhome"
+$env:GIT_COMMITTER_EMAIL="rokuhirachihirosato@gmail.com"
 
-set GIT_AUTHOR_NAME=mth3860
-set GIT_COMMITTER_EMAIL=otkbreak@gmail.com
-set GIT_COMMITTER_NAME=mth3860
-set GIT_COMMITTER_EMAIL=otkbreak@gmail.com
-set GIT_USER=mth3860
+set GIT_AUTHOR_NAME=ourtenderhome
+set GIT_COMMITTER_EMAIL=rokuhirachihirosato@gmail.com
+set GIT_COMMITTER_NAME=ourtenderhome
+set GIT_COMMITTER_EMAIL=rokuhirachihirosato@gmail.com
+set GIT_USER=ourtenderhome
 
 yarn deploy
 ```
